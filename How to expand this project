@@ -1,0 +1,13 @@
+Right below the "if command == "CUTO":" and the "module = input("Module")" line add a if statment like this "if module == "xcut_propt":"
+Right below your new found IF statment add some lines of code like the ones below this line
+ xcutpropte = True
+ while xcutpropte == True: 
+     print("xcut Propt Terminal\n")
+     xcut_propt_cmd = input("Command :") # hint, the varible xcut_propt_cmd is the command input and the varible xcutpropte enables \ disable the modules Terminal. Keep track of the varible names that you set these to cause dont use the one's I made
+Then add a end command to enter back into the Xcut Terminal like the lines below this
+if xcut_propt_cmd == "end":
+    xcutpropte = False
+Then to add a command add a IF statment like this with code below it (Dont froget to add Indents cause Python)
+if xcut_propt_cmd == "HW":
+  print("Hello world")
+ Theres a lot more to that you can do. The only limit? Your coding skills
