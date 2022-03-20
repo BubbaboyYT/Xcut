@@ -40,6 +40,8 @@ while cmd == True:
                     os.system(toexu)
                 if xcut_propt_cmd == "end":
                     xcutpropte = False
+                if xcut_propt_cmd == "help":
+                    print("end : ends this terminal \n Opener Change : Changes the opener \n Custom Change printer/command : printer commands print things while command commands can run any command off the system terminal")
         if module == "popper":
             poppere = True #Defines if the terminal for this module is enabled
             while poppere == True:
@@ -50,3 +52,7 @@ while cmd == True:
                     print("Hello World!") #prints Hello World!
                 if popper_cmd == "ARG":
                     poppername = input("Name :") #Argument tester
+                if popper_cmd == "help":
+                    print("HW : prints hello world \n ARG : changes the welcome name")
+    if command == "help":
+        print("CUTO : opens any module installed \n files : list files in the dir \n xcut stop : ends the terminal \n xcut get : Prints HIT \n term clear : clears the terminal")
