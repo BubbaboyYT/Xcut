@@ -53,6 +53,6 @@ while cmd == True:
                 if popper_cmd == "ARG":
                     poppername = input("Name :") #Argument tester
                 if popper_cmd == "help":
-                    print("HW : prints hello world \n ARG : changes the welcome name")
+                    print("HW : prints hello world \n ARG : changes the welcome name") #\n is a new line BTW
     if command == "help":
         print("CUTO : opens any module installed \n files : list files in the dir \n xcut stop : ends the terminal \n xcut get : Prints HIT \n term clear : clears the terminal")
