@@ -1,9 +1,11 @@
 import os
 from time import sleep as wait
+#import libarys if required
 opener = "xcut V1.0.0 \n"
 cmd = True
 namecustompr = "FALSE"
 namecustomcmd = "FALSE"
+poppername = "FALSE"
 while cmd == True:
     command = input(opener)
     if command == "xcut stop":
@@ -38,3 +40,13 @@ while cmd == True:
                     os.system(toexu)
                 if xcut_propt_cmd == "end":
                     xcutpropte = False
+        if module == "popper":
+            poppere = True #Defines if the terminal for this module is enabled
+            while poppere == True:
+                popper_cmd = input("Popper V1.0.0 \n Used as a sample module for people to add there own module \n Use 'Xcut Propt' to change opener and add custom commands \n Welcome " + poppername + " Please type your command! :") #the input for commands
+                if popper_cmd == "end":
+                    poppere = False #ends the module and returns to main Xcut terminal
+                if popper_cmd == "HW":
+                    print("Hello World!") #prints Hello World!
+                if popper_cmd == "ARG":
+                    poppername = input("Name :") #Argument tester
